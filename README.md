@@ -37,8 +37,8 @@ AeonNode-LoRa 是一個基於 [Embassy.rs](https://embassy.dev/) 異步框架構
 ### 編譯與運行
 ```bash
 # 複製專案
-git clone https://github.com
-cd aeonnode-lora
+git clone git@github.com:CasperHK/AeonNode.git
+cd aeonnode
 
 # 運行範例 (預設使用 RAK3112 配置)
 cargo run --release --example weather_station
