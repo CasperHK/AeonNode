@@ -50,6 +50,7 @@ cargo run --release --example weather_station
 * `/src/lora`: LoRaWAN 協議棧封裝。
 * `/src/power`: ADC 電池監測與太陽能效率追蹤。
 * `/examples`: 完整的參考實現範例。
+* `/pcb`: KiCad 硬件設計檔案。
 
 ## 🔋 低功耗設計指標 (預期)
 * **Deep Sleep (STOP Mode):** < 5μA (含 RAK3112 靜態電流)。
