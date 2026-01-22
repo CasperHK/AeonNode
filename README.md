@@ -44,12 +44,12 @@ cd aeonnode-lora
 cargo run --release --example weather_station
 ```
 
-📂 目錄結構
-`/src/core`: 框架核心，包含異步調度與低功耗策略。
-`/src/drivers`: 感測器驅動（BME280, TSL2591 等）。
-`/src/lora`: LoRaWAN 協議棧封裝。
-`/src/power`: ADC 電池監測與太陽能效率追蹤。
-`/examples`: 完整的參考實現範例。
+## 📂 目錄結構
+* `/src/core`: 框架核心，包含異步調度與低功耗策略。
+* `/src/drivers`: 感測器驅動（BME280, TSL2591 等）。
+* `/src/lora`: LoRaWAN 協議棧封裝。
+* `/src/power`: ADC 電池監測與太陽能效率追蹤。
+* `/examples`: 完整的參考實現範例。
 
 ## 🔋 低功耗設計指標 (預期)
 * **Deep Sleep (STOP Mode):** < 5μA (含 RAK3112 靜態電流)。
