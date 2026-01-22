@@ -1,0 +1,35 @@
+[default.general]# Rust
+
+
+
+
+
+
+
+
+
+
+
+enabled = false[default.gdb]enabled = true[default.rtt]halt_afterwards = false[default.reset]chip = "STM32L082CZYx"/target
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Probe-rs
+*.elf
+*.bin
+
+# Embedded
+*.hex
+*.map
