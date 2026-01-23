@@ -30,7 +30,7 @@ AeonNode-LoRa 是一個基於 [Embassy.rs](https://embassy.dev/) 異步框架構
 
 ## 🛠️ 快速開始
 ### 前置要求
-1. 安裝 Rust 工具鏈: rustup target add thumbv6m-none-eabi
+1. 安裝 Rust 工具鏈: `rustup target add thumbv6m-none-eabi`
 2. 安裝 probe-rs 進行燒錄與調試。
 3. 準備 RAK3112 硬體或相應的 STM32L0 開發板。
 

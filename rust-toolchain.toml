@@ -1,0 +1,12 @@
+[target.'cfg(all(target_arch = "arm", target_os = "none"))']
+rustflags = [
+  # LLD (shipped with the Rust toolchain) is used as the default linker
+  "-C", "link-arg=-Tlink.x",
+  "-C", "link-arg=-Tdefmt.x",
+  
+  # Enable link-time optimization for smaller binaries
+  "-C", "lto",
+  
+  # Use newlib-nano for smaller code size
+  "--cfg", "cortex_m_rt_link_nano",
+]
